@@ -7,7 +7,7 @@ This tool provides an intuitive way for business users and analysts to quickly v
 
 **Exhibit 1. Hess Corporation -- Simple Moving Average**
 
-![image](https://github.com/user-attachments/assets/d07415f3-59c2-4915-b59a-9b8b08ea7339)
+![image](https://github.com/user-attachments/assets/19de5e61-0aa9-4146-882c-c23559564649)
 
 ## Customize this Application with your own Stock List
 
@@ -37,9 +37,13 @@ You can modify the `COMPANY_TICKERS` dictionary in the Python file to add or rem
 
 ```python
 COMPANY_TICKERS = {
-    'Apple Inc.': 'AAPL',
-    'Microsoft Corporation': 'MSFT',
-    'Tesla, Inc.': 'TSLA',
+    'AbbVie': 'ABBV',
+    'Merck & Co.': 'MRK',
+    'Eli Lilly': 'LLY',
+    'Bristol-Myers Squibb': 'BMY',
+    'Gilead Sciences': 'GILD',
+    'Amgen': 'AMGN',
+    'AstraZeneca': 'AZN',
     # Add more companies here...
 }
 ```
