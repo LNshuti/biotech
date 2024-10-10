@@ -1,0 +1,13 @@
+name: biotech
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+    - sqlalchemy
+    - gradio
+    - pyperclip
+    - pandas
+    - defog
+    - fastapi
